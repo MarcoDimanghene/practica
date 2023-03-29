@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'raleway';
+    src: url(./fuentes/Raleway-VariableFont_wght.ttf);  
+    }
+@font-face {
+    font-family: 'ritalic';
+    src: url(./fuentes/Raleway-Italic-VariableFont_wght.ttf);
+    }
+header{background-color:#4a4e69;}
+
+    .logo  {
+        
+        position: absolute ;
+        top: 5px;
+        left: 5px;
+        padding-right: 10px;
+    
+}     
+.menunav{
+     margin-left: 200px;
+     font-family: 'ritalic';
+     font-weight: 700;
+     background-color: 415a77;
+     width: 75%;
+     height: 200px;
+     display: flex;
+     justify-content:center;
+     align-items:center;
+     flex-wrap: wrap;
+     border-style:ridge;
+    
+  }
+.menutex{
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-size: 30px;
+}
+
+.menutex:hover{
+    color: #c9ada7;
+    background-color: #9a8c98;
+}
