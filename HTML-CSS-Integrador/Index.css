@@ -1,0 +1,361 @@
+ 
+ 
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #95d5b2;
+    height: 125vh;
+}
+header {
+    background-color: #1b4332;
+    width: 100%;
+    height: 10%;
+}
+main{
+    
+    width: 100%;
+    height: 80%;
+    
+}
+footer{
+    background-color: #95f5b2;
+    width: 100%;
+    height: 10%;
+}
+h1{
+    color: #d8f3dc;
+    text-decoration:underline;
+    font-size:180%;
+}
+a{
+    text-decoration: none;
+}
+/* Dentro del Header */
+.contenedornav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.contenedormenu{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    width: 50%;
+    height: 100%;
+}
+
+.imglogo{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.txtmenu{
+    
+    padding: 5px;
+    font-size: 1.5em;
+    color: aliceblue;
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+}
+.txtmenu1{
+    background-color: #081c15;
+    border-radius: 15px;
+    color: aliceblue;
+    float: left;
+    padding: 5px;
+}
+.a1{
+    color: aliceblue;
+    float: left;
+}
+.txtmenu1:hover {
+    background: #a7c957;
+    
+  }
+  
+/* Dentro del Main */
+.tituloh1{
+    background-color: #081c15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+.secc0{
+    background-color: #2d6a4f;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.secc1{
+    background-color:#52b788;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+}
+.secc2{
+    background-color: #74c69d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    height: 40%;
+} 
+/* Dentro del Seccion 0 */
+.portada{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+}
+.conttxt1{
+    width: 60%;
+    height: 60%;
+}
+.txt0{
+    color: rgb(253, 253, 253);
+    
+    font-weight: 300;
+}
+.imgportada{
+    height: auto;
+}
+
+/* Dentro del Seccion 1 */
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedorinfo1{
+    
+    width: 30%;
+    height: 100%;
+}
+.contenedorinfo2{
+    
+    width: 30%;
+    height: 100%;
+}
+.contenedorinfo3{
+    
+    width: 30%;
+    height: 100%;
+}
+.conttxt1{
+    width: 30%;
+    height: 20%;
+}
+.txt1{
+    color: rgb(253, 253, 253);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.botonesreging{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+/* Dentro del Seccion 2 Galeria de Imagenes */
+.selector{
+    display: flex;
+    justify-content:center; 
+    flex-direction: column;
+    background-color: #1b4332;
+    
+    width: 100%;
+    height: 35%;
+}
+
+.selec{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+}
+.contenedorgaleria{
+    background-color: #081c15;
+    width: 100%;
+    height: 65%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.imggaleria1{
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+    width: Auto;
+    height: 100%;
+}
+.imggaleria2{
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.imggaleria3{
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+}
+.galeria{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.galeria2{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+    
+}
+.galeria3{
+    
+    width: auto;
+    height: 100%;
+}
+
+    
+    
+
+.imgselector{
+    margin: 0;
+    width: auto;
+    height: 100%;    
+}
+
+
+.leonardo:hover::after{
+    content: 'Leonardo Da Vinci';
+    position: absolute;
+    color:black;
+    background-color: aliceblue;
+}
+.monet:hover::after{
+    content: 'Claude Monet';
+    position: absolute;
+    color:black;
+    background-color: aliceblue;
+}
+.vincent:hover::after{
+    content: 'Vincent Van Gogh';
+    position: absolute;
+    color:black;
+    background-color: aliceblue;
+}
+/* Footer */
+
+
+
+
+
+@media (max-width: 702px){
+    /* Selector */
+    .selec{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+    /* GALERIA */
+    .galeria{
+        display: flex;
+        
+        overflow: hidden;
+        object-fit: cover;
+        width: 80px;
+        height: 200px;
+        
+    }
+    .galeria2{
+        display: flex;
+        
+        overflow: hidden;
+        object-fit: cover;
+        width: 80px;
+        height: 200px;
+        
+    }
+    .galeria3{
+        display: flex;
+        
+        overflow: hidden;
+        object-fit: cover;
+        width: 80px;
+        height: 200px;
+        
+    }
+}
+@media (max-width: 768px) {
+    body{
+        height: 168vh;
+    }
+    .imgportada{
+        width: 20%;
+        height: 40%;
+        
+    }
+    
+    .conttxt1{
+        
+        border:;
+        font-size: 0.8em;
+        width: 50%;
+        height: 100%;
+    }
+    .tituloh1{
+        font-size: 0.8em;
+    }
+    .txt0{
+        border-style:unset;
+        margin-left: 2%;
+        width: 100%;
+        height: 100%;
+        text-overflow: inherit;
+    }
+}
+
+
+    
+    
+    
+    

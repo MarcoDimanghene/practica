@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'GaramondR';
+    src: url(./Fuente/CormorantGaramond-Regular.ttf);  
+    }
+@font-face {
+    font-family: 'GaramondM';
+    src: url(./Fuente/CormorantGaramond-Medium.ttf);  
+    }
+@font-face {
+    font-family: 'GaramondMI';
+    src: url(./Fuente/CormorantGaramond-MediumItalic.ttf);  
+    }
+
+  
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#081c15;
+    font-family: "GaramondR";
+    font-size: 1.2em;
+}
+form{
+    background-color:#95D5B2;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+    
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-family: "GaramondR";
+    font-size: 1.2em;
+    border-radius: 25px;
+    padding: 10px;
+    width: 35%;
+}
+button:hover{
+    background-color: rgb(253, 253, 253);
+    color: rgb(16, 79, 134);
+}
+
+.chec{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 2px;
+   
+
+}
+.columna1{
+    
+    margin-bottom: 2%;
+    
+}
+.columna2{
+  
+    margin-bottom: 2%;
+   
+}
+.cont{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 60%;
+    height: 100%;
+    
+}
+.textos{
+ font-family: "GaramondM";
+ font-size: 1.2em;
+}
+.txtimput{
+    font-family: "GaramondR";
+    font-size: 1.2em;
+    width: 90%;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+   }
+
+.button{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    overflow: hidden;
+}
+label{
+    font-family: "GaramondR";
+    font-weight: 600;
+    font-size: 1.2em;
+}
